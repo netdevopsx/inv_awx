@@ -1,0 +1,23 @@
+---
+ansible_tower:
+  permissions:
+    job_templates:
+      Guest:
+        Execute:
+          teams: 
+          - "Guests"
+    inventories:
+      Guest:
+        Use:
+          teams:
+          - "Guests"
+    projects:
+      Guest:
+        Use:
+          teams: 
+          - "Guests"
+    credentials:
+      Guest:
+        Use:
+          teams: 
+          - "Guests"

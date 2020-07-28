@@ -1,0 +1,17 @@
+---
+ansible_tower:
+  projects:
+  - name: "inv_cml"
+    description: "CML inventory"
+    scm_url: "https://github.com/netdevopsx/inv_cml.git"
+    scm_branch: "master"
+    organization: "NetDevOpsX"
+    credential: "GitHub"
+    permissions: "Guest"
+  - name: "pb_cml_demo"
+    description: "CML demo playbooks"
+    scm_url: "https://github.com/netdevopsx/pb_cml_demo.git"
+    scm_branch: "master"
+    organization: "NetDevOpsX"
+    credential: "GitHub"
+    permissions: "Guest"

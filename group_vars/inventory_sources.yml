@@ -1,0 +1,11 @@
+---
+ansible_tower:
+  inventory_sources:
+  - name: "cml_demo"
+    description: "Demo CML inventory"
+    credential: ""
+    source: "scm"
+    source_project: "inv_cml_demo"
+    source_path: "/"
+    update_cache_timeout: 3660
+    inventory: "cml_demo"

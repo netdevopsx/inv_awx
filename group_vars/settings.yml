@@ -1,0 +1,8 @@
+---
+ansible_tower:
+  settings:
+    AWX_TASK_ENV:
+      {
+        "ANSIBLE_PYTHON_INTERPRETER": "python",
+        "ANSIBLE_JINJA2_EXTENSIONS": "jinja2.ext.do,jinja2.ext.i18n"
+      }

@@ -1,0 +1,13 @@
+---
+ansible_tower:
+  job_templates:
+    # Demo set NTP server
+    - name: "Set NTP Server"
+      description: "Demo playbooks (Set NTP Server)"
+      project: "pb_cml_demo"
+      playbook: "pb_ntp.yml"
+      credential:
+        - "cml"
+      inventory: "cml_demo"
+      forks: 3
+      permissions: "Guest"
