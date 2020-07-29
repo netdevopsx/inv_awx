@@ -1,0 +1,5 @@
+---
+ansible_tower:
+  organizations:
+  - name: "NetDevOpsX"
+    description: "NetDevOpsX"
