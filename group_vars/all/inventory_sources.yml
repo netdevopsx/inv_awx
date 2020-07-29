@@ -5,7 +5,6 @@ ansible_tower:
     description: "Demo CML inventory"
     credential: ""
     source: "scm"
-    source_project: "inv_cml_demo"
-    source_path: "/"
+    source_project: "inv_cml"
     update_cache_timeout: 3660
     inventory: "cml_demo"
