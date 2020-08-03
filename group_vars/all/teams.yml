@@ -1,7 +1,0 @@
----
-ansible_tower:
-  teams:
-  - name: "Administrators"
-    organization: "NetDevOpsX"
-  - name: "Guests"
-    organization: "NetDevOpsX"

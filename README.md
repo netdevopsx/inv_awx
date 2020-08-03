@@ -1,2 +1,2 @@
 # inv_awx
-The AWX configuration
+The AWX configuration (Inventory)

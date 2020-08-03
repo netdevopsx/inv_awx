@@ -1,6 +1,0 @@
----
-ansible_tower:
-  inventories:
-  - name: "cml_demo"
-    organization: "NetDevOpsX"
-    permissions: "Guest"
