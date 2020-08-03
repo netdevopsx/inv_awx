@@ -1,0 +1,3 @@
+---
+awx_host: "https://awx.blue.netdevopsx.com"
+verify_ssl: True

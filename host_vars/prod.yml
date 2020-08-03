@@ -1,4 +1,0 @@
----
-awx_host: "https://awx.netdevopsx.com"
-verify_ssl: True
-production: True
